@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/itheima-edu-info-manager/itheima-edu-info-manager.iml" filepath="$PROJECT_DIR$/itheima-edu-info-manager/itheima-edu-info-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socketmodule/socketmodule.iml" filepath="$PROJECT_DIR$/socketmodule/socketmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-package/test-package.iml" filepath="$PROJECT_DIR$/test-package/test-package.iml" />
+    </modules>
+  </component>
+</project>
