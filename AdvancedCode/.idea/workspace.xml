@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14aed0c2-d550-471d-94b4-0fc299bb2fba" name="Default Changelist" comment="" />
+    <list default="true" id="14aed0c2-d550-471d-94b4-0fc299bb2fba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socketmodule/src/com/itheima/socketdemo2/CS570Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +19,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="2BB4jmmINOXovCqmxpgyGKJ5fD9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
@@ -36,7 +45,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientDemo">
+  <component name="RunManager" selected="Application.CS570Test">
+    <configuration name="CS570Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.socketdemo2.CS570Test" />
+      <module name="socketmodule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.socketdemo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itheima.socketdemo2.ClientDemo" />
       <module name="socketmodule" />
@@ -91,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CS570Test" />
         <item itemvalue="Application.ClientDemo" />
         <item itemvalue="Application.ServerDemo" />
         <item itemvalue="Application.InetadressDemo1" />
@@ -111,10 +134,22 @@
       <workItem from="1656366284302" duration="4737000" />
       <workItem from="1656459825720" duration="241000" />
       <workItem from="1656460477418" duration="5713000" />
+      <workItem from="1656565116708" duration="4913000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
