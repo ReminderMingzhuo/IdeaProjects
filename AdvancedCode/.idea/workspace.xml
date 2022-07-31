@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14aed0c2-d550-471d-94b4-0fc299bb2fba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/socketmodule/src/com/itheima/socketdemo2/interview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socketmodule/src/com/itheima/socketdemo2/node.java" afterDir="false" />
+    <list default="true" id="f6314056-985e-4171-90ee-15faa3af32f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AdvancedCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima-edu-info-manager/src/com/itheima/edu/info/manager/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima-edu-info-manager/src/com/itheima/edu/info/manager/controller/StudentController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,27 +15,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2BB4jmmINOXovCqmxpgyGKJ5fD9" />
+  <component name="ProjectId" id="2CgdYVBbiP2OoeOVrkEWoA9QGxI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="12" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,99 +38,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CS570Test2">
-    <configuration name="CS570Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.socketdemo2.CS570Test" />
-      <module name="socketmodule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.socketdemo2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CS570Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.socketdemo2.CS570Test2" />
-      <module name="socketmodule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.socketdemo2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.socketdemo2.ClientDemo" />
-      <module name="socketmodule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.socketdemo2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InetadressDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.socketdemo1.InetadressDemo1" />
-      <module name="socketmodule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.socketdemo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.socketdemo2.ServerDemo" />
-      <module name="socketmodule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.socketdemo2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.CS570Test2" />
-        <item itemvalue="Application.CS570Test" />
-        <item itemvalue="Application.ClientDemo" />
-        <item itemvalue="Application.ServerDemo" />
-        <item itemvalue="Application.InetadressDemo1" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14aed0c2-d550-471d-94b4-0fc299bb2fba" name="Default Changelist" comment="" />
-      <created>1656366281358</created>
+      <changelist id="f6314056-985e-4171-90ee-15faa3af32f0" name="Default Changelist" comment="" />
+      <created>1659228209255</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1656366281358</updated>
-      <workItem from="1656366284302" duration="4737000" />
-      <workItem from="1656459825720" duration="241000" />
-      <workItem from="1656460477418" duration="5713000" />
-      <workItem from="1656565116708" duration="11249000" />
-      <workItem from="1658546942830" duration="2606000" />
-      <workItem from="1658567725601" duration="1229000" />
-      <workItem from="1658903059436" duration="145000" />
+      <updated>1659228209255</updated>
+      <workItem from="1659228210549" duration="314000" />
     </task>
     <servers />
   </component>
@@ -150,26 +60,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/socketmodule/src/com/itheima/socketdemo2/CS570Test.java</url>
-          <line>7</line>
-          <properties class="com.itheima.socketdemo2.CS570Test" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
