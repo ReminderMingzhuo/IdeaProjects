@@ -10,14 +10,24 @@ public class StudentController {
         switch(choice){
             case "1":
                 System.out.println("添加");
+                addStudent();
                 break;
             case "2":
                 System.out.println("删除");
+                break;
             case "3":
                 System.out.println("修改");
+                break;
             case "4":
                 System.out.println("查询");
-
+                break;
+            case "5":
+                System.out.println("感谢您使用学生管理系统，再见！");
+                break studentLoop;
+            default:
+                System.out.println("您的输入有误，请重新输入");
+                break;
         }
     }
 }
+
