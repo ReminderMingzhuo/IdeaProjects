@@ -49,4 +49,8 @@ public class StudentService {
     public void deleteSudentById(String delId) {
         studentDao.deleteStudentById(delId);
     }
+
+    public void updateSudent(String updateId, Student newStu) {
+        studentDao.updateStudent(updateId,newStu);
+    }
 }

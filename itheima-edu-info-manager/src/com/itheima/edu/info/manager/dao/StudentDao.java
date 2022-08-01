@@ -44,4 +44,11 @@ public class StudentDao {
         }
         return index;
     }
+
+    public void updateStudent(String updateId, Student newStu) {
+        //1.查找updateId在容器中的索引位置
+        int index = getIndex(updateId);
+        //2.将该索引位置，使用新的学生对象替换
+        stus[index] = newStu;
+    }
 }

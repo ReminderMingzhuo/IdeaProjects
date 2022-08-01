@@ -24,7 +24,8 @@ public class StudentController {
                     deleteStudentById();
                     break;
                 case "3":
-                    System.out.println("修改");
+                    //System.out.println("修改");
+                    updateStudent();
                     break;
                 case "4":
                     //System.out.println("查询");
@@ -39,6 +40,34 @@ public class StudentController {
             }
         }
 
+    }
+
+    public void updateStudent() {
+        String updateId;
+        while(true){
+            System.out.println("请输入您要的修改学生id：");
+            updateId = sc.next();
+            boolean exists = studentService.isExists(updateId);
+            if(!exists){
+                System.out.println("您输入的id不存在，请重新输入：");
+            }else{
+                break;
+            }
+        }
+        System.out.println("请输入学生姓名：");
+        String name = sc.next();
+        System.out.println("请输入年龄姓名：");
+        String age = sc.next();
+        System.out.println("请输入生日姓名：");
+        String birthday = sc.next();
+        Student newStu = new Student();
+        newStu.setId(updateId);
+        newStu.setName(name);
+        newStu.setBirthday(birthday);
+        newStu.setAge(age);
+
+        studentService.updateSudent(updateId,newStu);
+        System.out.println("修改成功！");
     }
 
     public void deleteStudentById() {
