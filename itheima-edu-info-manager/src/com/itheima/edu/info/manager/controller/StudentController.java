@@ -43,47 +43,15 @@ public class StudentController {
     }
 
     public void updateStudent() {
-        String updateId;
-        while(true){
-            System.out.println("请输入您要的修改学生id：");
-            updateId = sc.next();
-            boolean exists = studentService.isExists(updateId);
-            if(!exists){
-                System.out.println("您输入的id不存在，请重新输入：");
-            }else{
-                break;
-            }
-        }
-        System.out.println("请输入学生姓名：");
-        String name = sc.next();
-        System.out.println("请输入年龄姓名：");
-        String age = sc.next();
-        System.out.println("请输入生日姓名：");
-        String birthday = sc.next();
-        Student newStu = new Student();
-        newStu.setId(updateId);
-        newStu.setName(name);
-        newStu.setBirthday(birthday);
-        newStu.setAge(age);
+        String updateId = inputStudentId();
+        Student newStu = inputSudentInfo(updateId);
 
         studentService.updateSudent(updateId,newStu);
         System.out.println("修改成功！");
     }
 
     public void deleteStudentById() {
-        String delId;
-        while(true){
-            System.out.println("请输入您要删除的学生id：");
-            delId = sc.next();
-
-
-            boolean exists = studentService.isExists(delId);
-            if(!exists){
-                System.out.println("您输入的id不存在，请重新输入：");
-            }else{
-                break;
-            }
-        }
+        String delId = inputStudentId();
         studentService.deleteSudentById(delId);
         System.out.println("删除成功！");
 
@@ -116,6 +84,34 @@ public class StudentController {
                 break;
             }
         }
+        Student stu = inputSudentInfo(id);
+        //将学生对象，传递给StudentService（业务员）中的addStudent方法
+
+        boolean result = studentService.addStudent(stu);
+        if(result){
+            System.out.println("添加成功");
+        }else{
+            System.out.println("添加失败");
+        }
+
+    }
+
+    public String inputStudentId(){
+        String id;
+        while(true){
+            System.out.println("请输入学生id：");
+            id = sc.next();
+            boolean exists = studentService.isExists(id);
+            if(!exists){
+                System.out.println("您输入的id不存在，请重新输入：");
+            }else{
+                break;
+            }
+        }
+        return id;
+    }
+
+    public Student inputSudentInfo(String id){
         //接收学生信息
         System.out.println("请输入学生姓名：");
         String name = sc.next();
@@ -129,15 +125,6 @@ public class StudentController {
         stu.setAge(age);
         stu.setBirthday(birthday);
         stu.setName(name);
-        //将学生对象，传递给StudentService（业务员）中的addStudent方法
-
-        boolean result = studentService.addStudent(stu);
-        if(result){
-            System.out.println("添加成功");
-        }else{
-            System.out.println("添加失败");
-        }
-
+        return stu;
     }
 }
-
