@@ -1,16 +1,13 @@
-package intern.tesla.serviceEngineer;
+package intern.tesla.serviceEngineer2208;
 
 import java.io.*;
-import java.lang.reflect.Array;
 import java.util.*;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 
 
 
-public class seInterview1 {
+public class seInterview2 {
     public static void main(String[] args) {
         //read the data in the CVS, and store in a List
         List<List<String>> data = readCVSFile("alters.cvs");

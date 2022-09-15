@@ -16,7 +16,7 @@ public class StudentController {
             String choice = sc.next();
             switch(choice){
                 case "1":
-                    System.out.println("添加");
+                    //System.out.println("添加");
                     addStudent();
                     break;
                 case "2":
